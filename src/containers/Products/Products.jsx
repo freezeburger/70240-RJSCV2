@@ -18,6 +18,7 @@ const Products = (props) => {
 
    return (
       <>
+         <h1>Products</h1>
          <h1>Actions</h1>
          <UI.Button onClick={logic.read}>Load Data</UI.Button>
          <hr />

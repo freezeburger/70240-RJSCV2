@@ -10,7 +10,7 @@ import { ThemeContext } from '@/core/contexts';
 
 // Default Props Values
 const defaultProps = {
-   title:'Header Component'
+   title: 'Header'
 };
 
 /**
@@ -18,15 +18,15 @@ const defaultProps = {
  * @param {*} props 
  * @exmaple <Header title="Header Component" /> 
  */
-const Header = ( props ) => {
+const Header = (props) => {
 
-   const {title} = { ...defaultProps, ...props };
+   const { title } = { ...defaultProps, ...props };
 
    const theme = useContext(ThemeContext);
 
    return (
       <HeaderWrapper data-testid="Header" title={title} theme={theme}>
-         Header Component
+         {props.children || title || 'Application'}
       </HeaderWrapper>
    )
 };

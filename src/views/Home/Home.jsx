@@ -18,6 +18,7 @@ const Home = () => {
          }
          <Layouts.LayoutApp>
             <Containers.Products />
+            <Containers.Products />
             <Containers.Message />
          </Layouts.LayoutApp>
       </>
