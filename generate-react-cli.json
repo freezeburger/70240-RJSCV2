@@ -1,0 +1,67 @@
+{
+  "usesTypeScript": false,
+  "usesStyledComponents": true,
+  "testLibrary": "Testing Library",
+  "component": {
+    "default": {
+      "customTemplates": {
+        "index": "templates/components/index.jsx",
+        "component": "templates/components/TemplateName.jsx",
+        "story": "templates/components/TemplateName.stories.jsx",
+        "style": "templates/components/TemplateName.styled.jsx",
+        "test": "templates/components/TemplateName.test.jsx"
+      },
+      "path": "src/components",
+      "withIndex": true,
+      "withStyle": true,
+      "withTest": true,
+      "withStory": true,
+      "withLazy": false
+    },
+    "containers": {
+      "customTemplates": {
+        "index": "templates/containers/index.jsx",
+        "hook": "templates/containers/TemplateName.hook.jsx",
+        "component": "templates/containers/TemplateName.jsx",
+        "lazy": "templates/containers/TemplateName.lazy.jsx"
+      },
+      "path": "src/containers",
+      "withIndex": true,
+      "withHook": true,
+      "withStyle": false,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": true
+    },
+    "layouts": {
+      "customTemplates": {
+        "index": "templates/layouts/index.jsx",
+        "component": "templates/layouts/TemplateName.jsx",
+        "style": "templates/layouts/TemplateName.styled.jsx",
+        "lazy": "templates/layouts/TemplateName.lazy.jsx"
+      },
+      "path": "src/layouts",
+      "withIndex": true,
+      "withHook": false,
+      "withStyle": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": true
+    },
+    "views": {
+      "customTemplates": {
+        "index": "templates/views/index.jsx",
+        "component": "templates/views/TemplateName.jsx",
+        "style": "templates/views/TemplateName.jsx",
+        "lazy": "templates/views/TemplateName.lazy.jsx"
+      },
+      "path": "src/views",
+      "withIndex": true,
+      "withHook": false,
+      "withStyle": false,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": true
+    }
+  }
+}

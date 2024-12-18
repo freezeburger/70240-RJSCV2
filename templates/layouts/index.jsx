@@ -1,0 +1,1 @@
+export { default as LayoutTemplateName } from './TemplateName.lazy';

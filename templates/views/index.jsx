@@ -1,0 +1,1 @@
+export { default as ViewTemplateName } from './TemplateName.lazy';
