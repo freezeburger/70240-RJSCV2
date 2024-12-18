@@ -6,4 +6,4 @@ export {default as Image} from './Image';
 export {default as Input} from './Input';
 export {default as List} from './List';
 export {default as SimpleForm} from './SimpleForm';
-export {default as TExtToSpeech} from './TextToSpeech';
+export {default as TextToSpeech} from './TextToSpeech';
