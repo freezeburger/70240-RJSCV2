@@ -3,7 +3,7 @@
 import { ErrorBoundary } from '@/core/utils'; */
 import { useApi } from '@/hooks/useApi.hook';
 import Card from '../components/Card';
-import { useGlobalEvent } from './composable/useGlobalEVent.hook';
+import { useGlobalEvent } from './composable/useGlobalEvent.hook';
 import { useNetworkStatus } from './composable/useNetworkStatus.hook';
 import { useShortcut } from './composable/useShortcut.hook';
 

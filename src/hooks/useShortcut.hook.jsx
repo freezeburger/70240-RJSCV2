@@ -1,6 +1,6 @@
 // useShortcut.hook.jsx
 
-import { useGlobalEvent } from "./useGlobalEVent.hook";
+import { useGlobalEvent } from "./useGlobalEvent.hook";
 
 export const useShortcut = (key,  handler, modifier) => {
 

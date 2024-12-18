@@ -1,7 +1,7 @@
 // useNetworkStatus.hook.jsx
 
 import { useState } from "react";
-import { useGlobalEvent } from "./useGlobalEVent.hook";
+import { useGlobalEvent } from "./useGlobalEvent.hook";
 
 /**
  * Captures the network status of the user
