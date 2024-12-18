@@ -3,7 +3,7 @@ import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
 
 // Local Dependencies
-import { TemplateNameWrapper } from './TemplateName.styled';
+import { AppWrapper } from './App.styled';
 
 // Application Level Imports
 import { ThemeContext } from '@/core/contexts';
@@ -14,18 +14,18 @@ import styled from '@emotion/styled';
 const defaultProps = {
 };
 
-const TemplateName = ( props ) => {
+const App = ( props ) => {
 
    const theme = useContext(ThemeContext);
 
    return (
-      <TemplateNameWrapper data-testid="TemplateName" theme={theme}>
+      <AppWrapper data-testid="App" theme={theme}>
          <UI.Header></UI.Header>
          <Main>
             {props.children}
          </Main>
          <UI.Footer></UI.Footer>
-      </TemplateNameWrapper>
+      </AppWrapper>
    )
 };
 
@@ -34,13 +34,13 @@ const Main = styled.main`
 `   	
 
 // Props Validation
-TemplateName.propTypes = {
+App.propTypes = {
    children: PropTypes.any
 };
 
 /**
- * TemplateName Component Description
+ * App Component Description
  * @param {*} props 
- * @exmaple <TemplateName title="TemplateName Component" /> 
+ * @exmaple <App title="App Component" /> 
  */
-export default TemplateName;
+export default App;

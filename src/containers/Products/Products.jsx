@@ -2,7 +2,7 @@
 import PropTypes from 'prop-types';
 
 // Application Level Imports
-import  * as UI from "@/components";
+import * as UI from "@/components";
 
 // Local Dependencies
 import { useProductsLogic } from './Products.hook';
@@ -12,7 +12,7 @@ const defaultProps = {
 };
 
 
-const Products = ( props ) => {
+const Products = (props) => {
 
    const logic = useProductsLogic(/* false to prevent initial loading */);
 
@@ -22,7 +22,11 @@ const Products = ( props ) => {
          <UI.Button onClick={logic.read}>Load Data</UI.Button>
          <hr />
          <h1>Data Visualisation</h1>
-         { logic.data }
+         <details>
+            <summary>Data</summary>
+            {JSON.stringify(logic.data)}
+         </details>
+
       </>
    )
 };

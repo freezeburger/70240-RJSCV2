@@ -5,9 +5,9 @@ import React, { useEffect } from "react";
 import { useApi } from "@/hooks/useApi.hook";
 
 
-export const useProductsLogic = (initialize = false) => {
+export const useMessageLogic = (initialize = false) => {
 
-   const api = useApi('products');
+   const api = useApi('messages');
 
     useEffect(() => {
         if(initialize)api.read();
