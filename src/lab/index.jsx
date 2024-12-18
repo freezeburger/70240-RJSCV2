@@ -11,6 +11,16 @@ import './http'
 import { useEffect } from 'react';
 
 const Lab = () => {
+
+
+    return (
+        <>
+        </>
+    )
+}
+
+
+const LabTwo = () => {
     const api = useApi('products');
 
     useEffect(() => {

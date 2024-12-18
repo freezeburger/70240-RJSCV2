@@ -16,12 +16,8 @@ const SimpleForm = ({initialValue, onChange}) => {
 
 function App() {
 
-  const [text, setText] = useState('')
-
   return (
     <>
-      {text}
-      <SimpleForm initialValue={text} onChange={setText}></SimpleForm>
       <Lab></Lab>
     </>
   )
